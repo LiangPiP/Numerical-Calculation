@@ -1,4 +1,4 @@
-# Numerical-Calculation
-Notes and codes for numerical calculation
+# Numerical-Computuation
+Notes and codes for numerical computuation
 
 
