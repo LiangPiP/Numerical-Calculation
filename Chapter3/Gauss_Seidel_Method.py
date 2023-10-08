@@ -5,7 +5,6 @@ def main():
     b=numpy.array([-12,20,3]).reshape(3,1)
     x=Guass_Seidel(A,b,epsilon=1e-7)
     print(f"{x}")
-    ...
 
 def Guass_Seidel(A,b,epsilon=1e-3):
     n=A.shape[0]
