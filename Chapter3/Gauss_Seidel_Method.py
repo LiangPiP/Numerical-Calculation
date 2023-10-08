@@ -4,8 +4,7 @@ def main():
     A=numpy.array([[5,2,3],[1,4,2],[2,-3,10]])
     b=numpy.array([-12,20,3]).reshape(3,1)
     x=Guass_Seidel(A,b,epsilon=1e-7)
-    y=numpy.linalg.solve(A,b)
-    print(f"{x},{y}")
+    print(f"{x}")
     ...
 
 def Guass_Seidel(A,b,epsilon=1e-3):
